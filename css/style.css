@@ -2,7 +2,7 @@ body {
     margin: 10px;
     padding: 0px;
     border-width: 0px;
-    
+    text-align: justify;
 }
 
 p, h1, h2,h3,li {
@@ -20,18 +20,18 @@ li + li {
     margin-right: 3%;
 }
 
-nav div {
+#contatos div {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-nav i {
+#contatos i {
     display: inline-block;
     font-size: 35px;
 }
 
-a {
+#contatos a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
